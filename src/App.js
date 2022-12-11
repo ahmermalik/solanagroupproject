@@ -1,23 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import Home from "./Home/index";
+import Profile from "./Profile/index";
+import NFTs from "./data";
+import "./App.scss";
 
 function App() {
+  const [view, setView] = useState("home");
+  const [nfts, setNfts] = useState();
+
+  useEffect(() => {
+    setNfts(NFTs);
+  }, [nfts]);
+
+  useEffect(() => {
+    // useeffect to call solana api to gather user account information/nft ownership data
+  }, []);
+
+  const updateView = (e) => {
+    setView(e);
+  };
+  const renderView = () => {
+    if (view === "home") {
+      return <Home  nfts={nfts}/>;
+    } else if (view === "profile") {
+      return <Profile />;
+    } else {
+      return <div>Loading....</div>;
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="">
+      <div className="nav-bar">
+        NFT Market Place Group 2 {view}
+        <button
+          onClick={(e) => {
+            updateView("home");
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          {" "}
+          Home{" "}
+        </button>{" "}
+        <button
+          onClick={(e) => {
+            updateView("profile");
+          }}
+        >
+          {" "}
+          Profile
+        </button>{" "}
+      </div>
+
+      <div className="main-view"> {renderView()} </div>
     </div>
   );
 }
