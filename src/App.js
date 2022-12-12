@@ -2,9 +2,13 @@ import React, { useState, useEffect } from "react";
 import Home from "./Home/index";
 import Profile from "./Profile/index";
 import NFTs from "./data";
+import { WalletAdapterNetwork, WalletError } from '@solana/wallet-adapter-base';
+import { Connection, PublicKey, clusterApiUrl } from "@solana/web3.js";
 import "./App.scss";
 
 function App() {
+  const network = WalletAdapterNetwork.Devnet;
+  
   const [view, setView] = useState("home");
   const [nfts, setNfts] = useState();
 

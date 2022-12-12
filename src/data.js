@@ -206,5 +206,161 @@ module.exports = [
         }
       ]
     }
+  },
+  {
+    "name": "Bored vapes",
+    "symbol": "VB",
+    "description": `Deeper down the rabbit hole we go, this time "Mindblown" by experimental artist`,
+    "seller_fee_basis_points": 0,
+    "floor_price": 3.25,
+    "image": "https://random.imagecdn.app/550/150",
+    "animation_url": "https://www.arweave.net/efgh1234?ext=mp4",
+    "external_url": "https://solflare.com",
+    "attributes": [
+      {
+        "trait_type": "web",
+        "value": "yes"
+      },
+      {
+        "trait_type": "mobile",
+        "value": "yes"
+     },
+     {
+        "trait_type": "extension",
+        "value": "yes"
+      }
+    ],
+    "collection": {
+       "name": "Trippin Apes",
+       "family": "Trippin Apes" 
+    },
+    "properties": {
+      "files": [
+        {
+          "uri": "https://www.arweave.net/abcd5678?ext=png",
+          "type": "image/png"
+        },
+        {
+          "uri": "https://watch.videodelivery.net/9876jkl",
+          "type": "unknown",
+          "cdn": true
+        },
+        {
+          "uri": "https://www.arweave.net/efgh1234?ext=mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "category": "video",
+      "creators": [
+        {
+          "address": "SOLFLR15asd9d21325bsadythp547912501b",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "v00ts",
+    "symbol": "V0",
+    "description": `Deeper down artist`,
+    "seller_fee_basis_points": 0,
+    "floor_price": 3.25,
+    "image": "https://random.imagecdn.app/105/150",
+    "animation_url": "https://www.arweave.net/efgh1234?ext=mp4",
+    "external_url": "https://solflare.com",
+    "attributes": [
+      {
+        "trait_type": "web",
+        "value": "yes"
+      },
+      {
+        "trait_type": "mobile",
+        "value": "yes"
+     },
+     {
+        "trait_type": "extension",
+        "value": "yes"
+      }
+    ],
+    "collection": {
+       "name": "Trippin Apes",
+       "family": "Trippin Apes" 
+    },
+    "properties": {
+      "files": [
+        {
+          "uri": "https://www.arweave.net/abcd5678?ext=png",
+          "type": "image/png"
+        },
+        {
+          "uri": "https://watch.videodelivery.net/9876jkl",
+          "type": "unknown",
+          "cdn": true
+        },
+        {
+          "uri": "https://www.arweave.net/efgh1234?ext=mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "category": "video",
+      "creators": [
+        {
+          "address": "SOLFLR15asd9d21325bsadythp547912501b",
+          "share": 100
+        }
+      ]
+    }
+  },
+  {
+    "name": "Speed",
+    "symbol": "S",
+    "description": `Speed experimental artist`,
+    "seller_fee_basis_points": 0,
+    "floor_price": 3.25,
+    "image": "https://random.imagecdn.app/305/150",
+    "animation_url": "https://www.arweave.net/efgh1234?ext=mp4",
+    "external_url": "https://solflare.com",
+    "attributes": [
+      {
+        "trait_type": "web",
+        "value": "yes"
+      },
+      {
+        "trait_type": "mobile",
+        "value": "yes"
+     },
+     {
+        "trait_type": "extension",
+        "value": "yes"
+      }
+    ],
+    "collection": {
+       "name": "Trippin Apes",
+       "family": "Trippin Apes" 
+    },
+    "properties": {
+      "files": [
+        {
+          "uri": "https://www.arweave.net/abcd5678?ext=png",
+          "type": "image/png"
+        },
+        {
+          "uri": "https://watch.videodelivery.net/9876jkl",
+          "type": "unknown",
+          "cdn": true
+        },
+        {
+          "uri": "https://www.arweave.net/efgh1234?ext=mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "category": "video",
+      "creators": [
+        {
+          "address": "SOLFLR15asd9d21325bsadythp547912501b",
+          "share": 100
+        }
+      ]
+    }
   }
 ];
